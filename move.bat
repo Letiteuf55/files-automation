@@ -13,7 +13,7 @@ ECHO Fichier %%? detecte dans %REP_IN% : test disponibilite...
 
 "C:\sleep.exe" 2
 
-move %REP_IN%\%%?.stl %%?\%%?.stl
+move "%REP_IN%\%%?.stl" "%%?_HD_VF20_AD20\%%?.stl"
 
 goto :end
 )
